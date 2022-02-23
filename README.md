@@ -5,9 +5,9 @@ If you find anything is not working feel free to open an issue
 
 ## The Code
 
-```
-var message = prompt("Enter your message", "Hello");
-var counter = parseInt(prompt("How many Times ?", 10));
+```js
+let message = prompt("Enter your message", "Hello"); // Can Replace prompt with a Set Text If You Like
+let counter = parseInt(prompt("How many Times ?", 10)); // Can Replace prompt with a set number if you like
 window.InputEvent = window.Event || window.InputEvent;
 var event = new InputEvent("input", { bubbles: true });
 var textbox = document.getElementsByClassName("_13NKt copyable-text selectable-text")[1];
